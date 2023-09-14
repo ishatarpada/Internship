@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Women's Collection */
+
+.div-1 {
+    height: auto;
+    width: auto;
+    /* border: 1px solid black;s */
+}
+
+.div-1 .women-items {
+    height: 700px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part1 {
+    height: 650px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part1 .women-cover {
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part1 .women-cover .img {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+    transition: 10s;
+}
+
+.div-1 .women-items .women-part1 .women-cover .img img {
+    width: 140%;
+    height: 100%;
+    position: absolute;
+    left: -40%;
+    filter: brightness(60%);
+    background-size: cover;
+}
+
+.div-1 .women-items .women-part1 .women-cover:hover .img img {
+    left: 0;
+}
+
+.div-1 .women-items .women-part1 .women-cover .women-text {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    /* filter: brightness(50%); */
+}
+
+.div-1 .women-items .women-part1 .women-cover .women-text {
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+    position: relative;
+}
+
+.div-1 .women-items .women-part1 .women-cover .women-text .women-1-text {
+    height: 120px;
+    width: 330px;
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 8px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    left: 100px;
+    transition: 1s;
+    /* border: 1px solid white; */
+}
+
+.div-1 .women-items .women-part1 .women-cover .women-text .women-1-text:hover {
+    border: 10px solid white;
+}
+
+.div-1 .women-items .women-part2 {
+    height: 600px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-header {
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-header ul {
+    height: 80px;
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-header ul li {
+    height: 75px;
+    width: 25%;
+    margin: auto;
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid navy; */
+}
+
+.div-1 .women-items .women-part2 .women-header ul li:hover {
+    color: black;
+    font-size: 25px;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.div-1 .women-items .women-part2 .women-product {
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information {
+    height: 425px;
+    width: 32%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img {
+    width: 100%;
+    height: 335px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information1 .img {
+    background-image: url("./image/women-1.jpg");
+    background-size: cover;
+}
+
+.div-1 .women-items .women-part2 .women-product .information2 .img {
+    background-image: url("./image/women-2.jpg");
+    background-size: cover;
+}
+
+.div-1 .women-items .women-part2 .women-product .information3 .img {
+    background-image: url("./image/women-3.jpg");
+    background-size: cover;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img .parent {
+    position: relative;
+    display: none;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img:hover .parent {
+    display: flex;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img .parent .icon {
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    font-size: 20px;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img .parent .list {
+    position: absolute;
+    left: 60px;
+    top: 270px;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img .parent .list ul {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information .img .parent .list ul li {
+    font-size: 18px;
+    list-style: none;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information .info {
+    width: 100%;
+    height: 90spx;
+    margin: 5px auto;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information .info p {
+    font-size: 12px;
+    padding-top: 5px;
+    color: lightgray;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .info h3 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .info h2 {
+    font-size: 22px;
+    padding-top: 5px;
+    color: #e7ab3c;
+}
+
+.div-1 .women-items .women-part2 .women-product .information .info .button {
+    height: 20px;
+    width: 130px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+}
+
+.div-1 .women-items .women-part2 .women-product .information .info .remove-cart{
+    background-color: #e7ab3c;
+}
+
+/* Men's Collection */
+
+.div-2 {
+    height: auto;
+    width: auto;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items {
+    height: 700px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 {
+    height: 600px;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-header {
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-header ul {
+    height: 80px;
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-header ul li {
+    height: 75px;
+    width: 25%;
+    margin: auto;
+    font-size: 20px;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid navy; */
+}
+
+.div-2 .men-items .men-part1 .men-header ul li:hover {
+    color: black;
+    font-size: 25px;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.div-2 .men-items .men-part1 .men-product {
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-product .information {
+    height: 425px;
+    width: 32%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img {
+    width: 100%;
+    height: 335px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-product .information1 .img {
+    background-image: url("./image/man-1.jpg");
+    background-size: cover;
+}
+
+.div-2 .men-items .men-part1 .men-product .information2 .img {
+    background-image: url("./image/man-2.jpg");
+    background-size: cover;
+}
+
+.div-2 .men-items .men-part1 .men-product .information3 .img {
+    background-image: url("./image/man-3.jpg");
+    background-size: cover;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img .parent {
+    position: relative;
+    display: none;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img:hover .parent {
+    display: flex;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img .parent .icon {
+    position: absolute;
+    top: 10px;
+    left: 290px;
+    font-size: 20px;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img .parent .list {
+    position: absolute;
+    left: 60px;
+    top: 270px;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img .parent .list ul {
+    height: 50px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-product .information .img .parent .list ul li {
+    font-size: 18px;
+    list-style: none;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-product .information .info {
+    width: 100%;
+    height: 90px;
+    margin: 5px auto;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part1 .men-product .information .info p {
+    font-size: 12px;
+    padding-top: 5px;
+    color: lightgray;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .info h3 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .info h2 {
+    font-size: 22px;
+    padding-top: 5px;
+    color: #e7ab3c;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .info .button {
+    height: 20px;
+    width: 130px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.div-2 .men-items .men-part1 .men-product .information .info .remove-cart{
+    background-color: #e7ab3c;
+}
+
+.div-2 .men-items .men-part2 {
+    height: 650px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part2 .men-cover {
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+.div-2 .men-items .men-part2 .men-cover .img {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+    transition: 5s;
+}
+
+.div-2 .men-items .men-part2 .men-cover .img img {
+    width: 140%;
+    height: 100%;
+    position: absolute;
+    left: -40%;
+    filter: brightness(70%);
+    background-size: cover;
+}
+
+.div-2 .men-items .men-part2 .men-cover:hover .img img {
+    left: 0;
+}
+
+.div-2 .men-items .men-part2 .men-cover .men-text {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+}
+
+.div-2 .men-items .men-part2 .men-cover .men-text {
+    width: 100%;
+    height: 500px;
+    padding: 0px;
+    position: relative;
+}
+
+.div-2 .men-items .men-part2 .men-cover .men-text .men-1-text {
+    height: 120px;
+    width: 330px;
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 8px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 260px;
+    left: 100px;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+.div-2 .men-items .men-part2 .men-cover .men-text .men-1-text:hover {
+    border: 10px solid white;
+}

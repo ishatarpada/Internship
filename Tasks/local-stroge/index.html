@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- javascript link -->
+    <script src="script.js"></script>
+
+    <!-- Women's Collection -->
+    <div class="div-1">
+        <div class="women-items">
+            <div class="women-part1">
+                <div class="women-cover">
+                    <div class="img">
+                        <img src="./image/women template.jpg" alt="">
+                    </div>
+                    <div class="women-text">
+                        <div class="women-1-text">
+                            <h1><span style="color: #e7ab3c;">W</span>omen's</h1>
+                            <h3>Discover More</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="women-part2">
+                <div class="women-header">
+                    <ul>
+                        <li>Clothing</li>
+                        <li>Handbag</li>
+                        <li>Shoes</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+
+                <div class="women-product">
+                    <div class="information information1">
+                        <div class="img">
+                            <div class="parent">
+                                <div class="icon">
+                                    <i class="fa-regular fa-heart" style="color: #585d65;"></i>
+                                </div>
+                                <div class="list">
+                                    <ul>
+                                        <li style="background-color: #e7ab3c; color: white;"><i
+                                                class="fa-solid fa-bag-shopping"></i></li>
+                                        <li>+ Quick view</li>
+                                        <li><i class="fa-solid fa-shuffle"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>COAT</p>
+                            <h3>Pure Pineapple</h3>
+                            <h2 id="1">$14.00 <span
+                                    style="color: lightgray; text-decoration:line-through; padding-left: 5px;">$35.00</span>
+                            </h2>
+                            <a href="#" class="button add-cart" onclick="addCart('1')">add to cart</a>
+                            <a href="#" class="button remove-cart" onclick="removeCart('1')">Remove</a>
+                        </div>
+                    </div>
+
+                    <div class="information information2">
+                        <div class="img">
+                            <div class="parent">
+
+                                <div class="icon">
+                                    <i class="fa-regular fa-heart" style="color: #585d65;"></i>
+                                </div>
+                                <div class="list">
+                                    <ul>
+                                        <li style="background-color: #e7ab3c; color: white;">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                        </li>
+                                        <li>+ Quick view</li>
+                                        <li>
+                                            <i class="fa-solid fa-shuffle"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <p>COAT</p>
+                            <h3>Guangzhou Sweater</h3>
+                            <h2 id="2">$13.00</h2>
+                            <a href="#" class="button add-cart" onclick="addCart('2')">add to cart</a>
+                            <a href="#" class="button remove-cart" onclick="removeCart('2')">Remove</a>
+                        </div>
+
+                    </div>
+
+                    <div class=" information information3">
+                                <div class="img">
+                                    <div class="parent">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-heart" style="color: #585d65;"></i>
+                                        </div>
+                                        <div class="list">
+                                            <ul>
+                                                <li style="background-color: #e7ab3c; color: white;"><i
+                                                        class="fa-solid fa-bag-shopping"></i></li>
+                                                <li>+ Quick view</li>
+                                                <li><i class="fa-solid fa-shuffle"></i></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info">
+                                    <p>COAT</p>
+                                    <h3>Pure Pineapple</h3>
+                                    <h2 id="3">$34.00</h2>
+                                    <a href="#" class="button add-cart" onclick="addCart('3')">add to cart</a>
+                                    <a href="#" class="button remove-cart" onclick="removeCart('3')">Remove</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Men's Collection -->
+        <div class="div-2">
+            <div class="men-items">
+                <div class="men-part1">
+                    <div class="men-header">
+                        <ul>
+                            <li>Clothing</li>
+                            <li>Handbag</li>
+                            <li>Shoes</li>
+                            <li>Accessories</li>
+                        </ul>
+                    </div>
+
+                    <div class="men-product">
+                        <div class="information information1">
+                            <div class="img">
+                                <div class="parent">
+                                    <div class="icon">
+                                        <i class="fa-regular fa-heart" style="color: #585d65;"></i>
+                                    </div>
+                                    <div class="list">
+                                        <ul>
+                                            <li style="background-color: #e7ab3c; color: white;"><i
+                                                    class="fa-solid fa-bag-shopping"></i></li>
+                                            <li>+ Quick view</li>
+                                            <li><i class="fa-solid fa-shuffle"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>COAT</p>
+                                <h3>Pure Pineapple</h3>
+                                <h2 id="4">$14.00 <span
+                                        style="color: lightgray; text-decoration:line-through; padding-left: 5px;">$35.00</span>
+                                </h2>
+                                <a href="#" class="button add-cart" onclick="addCart('4')">add to cart</a>
+                                <a href="#" class="button remove-cart" onclick="removeCart('4')">Remove</a>
+                            </div>
+                        </div>
+
+                        <div class="information information2">
+                            <div class="img">
+                                <div class="parent">
+
+                                    <div class="icon">
+                                        <i class="fa-regular fa-heart" style="color: #585d65;"></i>
+                                    </div>
+                                    <div class="list">
+                                        <ul>
+                                            <li style="background-color: #e7ab3c; color: white;">
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </li>
+                                            <li>+ Quick view</li>
+                                            <li>
+                                                <i class="fa-solid fa-shuffle"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>COAT</p>
+                                <h3>Converse Shoes</h3>
+                                <h2 id="5">$13.00</h2>
+                                <a href="#" class="button add-cart" onclick="addCart('5')">add to cart</a>
+                                <a href="#" class="button remove-cart" onclick="removeCart('5')">Remove</a>
+                            </div>
+
+                        </div>
+
+                        <div class="information information3">
+                            <div class="img">
+                                <div class="parent">
+                                    <div class="icon">
+                                        <i class="fa-regular fa-heart" style="color: #585d65;"></i>
+                                    </div>
+                                    <div class="list">
+                                        <ul>
+                                            <li style="background-color: #e7ab3c; color: white;"><i
+                                                    class="fa-solid fa-bag-shopping"></i></li>
+                                            <li>+ Quick view</li>
+                                            <li><i class="fa-solid fa-shuffle"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <p>COAT</p>
+                                <h3>Guangzhou Sweater</h3>
+                                <h2 id="6">$34.00</h2>
+                                <a href="#" class="button add-cart" onclick="addCart('6')">add to cart</a>
+                                <a href="#" class="button remove-cart" onclick="removeCart('6')">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="men-part2">
+                    <div class="men-cover">
+                        <div class="img">
+                            <img src="./image/men.jpg" alt="">
+                        </div>
+                        <div class="men-text">
+                            <div class="men-1-text">
+                                <h1><span style="color: #e7ab3c;">M</span>en's</h1>
+                                <h3>Discover More</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
